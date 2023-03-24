@@ -1,0 +1,56 @@
+.cross {
+  cursor: pointer;
+  margin: 0;
+  margin-left: 3px;
+}
+
+.userDetails {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999999;
+  background-color: rgba(26, 26, 26, 0.8);
+}
+
+.singleDetails {
+  height: 100%;
+  width: 35%;
+  overflow-y: auto;
+  background-color: #e8faff;
+  color: grey;
+  position: absolute;
+  right: 0;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.userNameDetails {
+  margin-left: 20px;
+  border: 1px solid rgb(71, 63, 63);
+  padding: 10px;
+}
+
+.userNameDetails > h4 {
+  font-size: large;
+  color: grey;
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(71, 63, 63);
+  padding: 10px;
+}
+
+.userNameDetails > p {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.span {
+  font-weight: 300;
+  margin-left: 5px;
+}

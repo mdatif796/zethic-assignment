@@ -1,3 +1,61 @@
 body {
   margin: 0;
 }
+
+.App {
+  display: flex;
+}
+
+.users {
+  width: 30%;
+}
+
+.data-chart {
+  width: 70%;
+}
+
+/* LOADER */
+.app-spinner {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d6d6d6;
+  border-radius: 50%;
+  border-top-color: #6200ee;
+  animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+  margin-right: 10px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}

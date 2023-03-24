@@ -1,0 +1,38 @@
+.carUserContainer {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #c8f2fd;
+  color: grey;
+  font-size: 20px;
+}
+
+.userList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.userList h2 {
+  margin: 0;
+  color: black;
+}
+
+.userName {
+  width: 100%;
+  height: 30px;
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.cross {
+  cursor: pointer;
+  margin: 0;
+  margin-left: 3px;
+}

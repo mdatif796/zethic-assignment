@@ -1,0 +1,77 @@
+.headerFilter {
+  width: 50px;
+  position: relative;
+  text-align: center;
+  /* right: 0; */
+}
+.filterButton {
+  width: 100%;
+  padding: 0.2rem 0.8rem;
+  background-color: skyblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.filterOptions {
+  overflow: hidden;
+  width: 10rem;
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: rgb(232, 250, 255);
+  border-radius: 10px;
+}
+
+.filterInfo > h5 {
+  font-weight: 500;
+}
+
+.filterInfo > h3 {
+  font-weight: 500;
+}
+
+.filterInfo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7px;
+  border-bottom: 1px solid rgb(156, 154, 154);
+  padding: 10px;
+}
+
+.filterOptionAge {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filterOptionAge > h4 {
+  padding: 5px 2rem;
+  margin: 0.2rem auto;
+  border: 1px solid rgb(197, 212, 223);
+  background-color: rgb(245, 250, 251);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.filterOptionAge > h4:hover {
+  background-color: rgb(183, 242, 254);
+}
+.filterOptionAge > h4:first-child {
+  margin-top: 0.5rem;
+}
+.filterOptionAge > h4:last-child {
+  margin-bottom: 0.5rem;
+}
+.filterOptionAge > .activeAge {
+  background-color: rgb(89, 205, 228);
+}
