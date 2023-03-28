@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zethic-assignment/static/css/main.0cf51ef7.css",
+    "main.js": "/zethic-assignment/static/js/main.c3143451.js",
+    "index.html": "/zethic-assignment/index.html",
+    "main.0cf51ef7.css.map": "/zethic-assignment/static/css/main.0cf51ef7.css.map",
+    "main.c3143451.js.map": "/zethic-assignment/static/js/main.c3143451.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cf51ef7.css",
+    "static/js/main.c3143451.js"
+  ]
+}
